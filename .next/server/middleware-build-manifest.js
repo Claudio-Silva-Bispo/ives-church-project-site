@@ -14,25 +14,10 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/About": [
+    "/Event": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/About.js"
-    ],
-    "/Contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Contact.js"
-    ],
-    "/Gallery": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Gallery.js"
-    ],
-    "/Schedule": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Schedule.js"
+      "static/chunks/pages/Event.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

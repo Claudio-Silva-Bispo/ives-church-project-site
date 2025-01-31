@@ -3,9 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/Schedule": "pages/Schedule.js",
-  "/Event": "pages/Event.js",
-  "/Contact": "pages/Contact.js",
-  "/Gallery": "pages/Gallery.js",
-  "/About": "pages/About.js"
+  "/Event": "pages/Event.js"
 }
