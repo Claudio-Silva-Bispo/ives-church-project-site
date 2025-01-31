@@ -6,12 +6,10 @@ export default function Footer(){
         <footer className="bg-[#111827] text-white">
             <div className="container flex flex-col p-6 mx-auto md:p-8 lg:flex-row divide-gray-600">
                 <ul className="self-start py-6 space-y-4 text-start sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-                    <li>Quem somos</li>
-                    <li>Localização</li>
-                    <li>Contatos</li>
-                    <li>Agenda</li>
-                    <li>Atividades</li>
-                    <li>Galeria</li>
+                    <li><a href="/About">Quem somos</a></li>
+                    <li><a href="/Contact">Contatos</a></li>
+                    <li><a href="/Schedule">Agenda</a></li>
+                    <li><a href="/Gallery">Galeria</a></li>
                 </ul>
                 <div className="flex flex-col justify-center pt-6 lg:pt-0">
                     <div className="flex justify-center space-x-4">

@@ -1,8 +1,8 @@
 
 const links = [
-    { name: 'Eventos', href: '#' },
-    { name: 'Nossa agenda', href: '#' },
-    { name: 'Nossa liderança', href: '#' },
+    { name: 'Eventos', href: '/Event' },
+    { name: 'Nossa agenda', href: '/Schedule' },
+    { name: 'Nossa liderança', href: '/Contact' },
     ]
        
 export default function About() {
