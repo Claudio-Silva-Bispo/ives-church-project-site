@@ -29,7 +29,7 @@ export default function Main() {
           </div>
         </div>
 
-        <div className="mt-10 lg:mt-0 rounded-xl">
+        <div className="md:mt-10 lg:mt-0 rounded-xl">
             <VideoComponent videoSrc="/video-um.webm"/>
         </div>
       </div>

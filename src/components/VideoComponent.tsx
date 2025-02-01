@@ -6,7 +6,7 @@ interface VideoComponentProps {
   height?: string;
 }
 
-const VideoComponent: React.FC<VideoComponentProps> = ({ width = "500", height = "500" }) => {
+const VideoComponent: React.FC<VideoComponentProps> = ({ width = "400", height = "auto" }) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {

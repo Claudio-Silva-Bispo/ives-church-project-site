@@ -24,7 +24,7 @@ const churchInfo = {
   name: 'Igreja Ives',
   address: '13120 Ne 177pl, Woodinville, 98072',
   phone: '+1 (425) 260-9800',
-  website: 'www.ivesseattle.com',
+  website: 'www.iveschurchseattle.com',
 };
 
 export default function Team() {
@@ -43,7 +43,7 @@ export default function Team() {
             {representatives.map((representative) => (
                 <article key={representative.id} className="flex max-w-xl flex-col items-start justify-between">
                 <div className="relative">
-                    <img alt={representative.name} src={representative.imageUrl} className="h-40 w-full rounded-md bg-gray-50" />
+                    <img alt={representative.name} src={representative.imageUrl} className="h-40 rounded-md bg-gray-50" />
                 </div>
                 <h3 className="mt-3 text-xl font-semibold leading-6 ">{representative.name}</h3>
                 <p className="mt-2 line-clamp-3 text-md leading-6 ">{representative.description}</p>
