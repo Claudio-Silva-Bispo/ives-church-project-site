@@ -37,7 +37,7 @@ export default function LoginDashboard() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center px-6 py-12 mt-20">
+    <div className="flex min-h-screen items-center justify-center px-6 py-12 bg-[#111827]">
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded shadow-md">
         <div className="text-center">
           <img
