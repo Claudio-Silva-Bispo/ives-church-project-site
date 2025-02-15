@@ -33,6 +33,11 @@ export default function Navbar() {
                 return;
             }
 
+            if (router.pathname === '/Schedule') {
+                setIsHeroVisible(true);
+                return;
+            }
+
             if (heroElement) {
                 const heroHeight = heroElement.offsetHeight;
                 const scrollPosition = window.scrollY;

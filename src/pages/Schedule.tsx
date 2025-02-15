@@ -45,8 +45,8 @@ export default function Schedule() {
     const eventosParaExibir = erro || eventos.length === 0 ? programacaoPadrao : eventos;
 
     return (
-        <section className="md:m-8 text-gray-800 pt-10 flex flex-col justify-center items-start md:pt-44">
-            <div className="container text-start p-5 pt-20">
+        <section className="md:m-8 text-gray-800 pt-10 flex flex-col justify-start items-start">
+            <div className="container text-start p-5">
                 <h2 className="text-2xl md:text-4xl font-bold">Fique por dentro da nossa programação</h2>
                 <p className="text-gray-600">Cada dia com um objetivo espiritual</p>
             </div>
