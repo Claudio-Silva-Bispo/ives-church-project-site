@@ -28,7 +28,7 @@ export default function Navbar() {
         const handleScroll = () => {
             const heroElement = document.querySelector('#habilitar-menu') as HTMLElement | null;
 
-            if (router.pathname === '/Schedule' || router.pathname === '/Event' || router.pathname === '/Team') {
+            if (router.pathname === '/Event' || router.pathname === '/Team') {
                 setIsHeroVisible(false);
                 return;
             }

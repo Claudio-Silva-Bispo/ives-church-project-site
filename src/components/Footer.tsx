@@ -10,6 +10,7 @@ export default function Footer(){
                     <li><a href="/Contact">Contatos</a></li>
                     <li><a href="/Schedule">Agenda</a></li>
                     <li><a href="/Gallery">Galeria</a></li>
+                    <li><a href="/LoginDashboard">Dashboard</a></li>
                 </ul>
                 <div className="flex flex-col justify-center pt-6 lg:pt-0">
                     <div className="flex justify-center space-x-4">
