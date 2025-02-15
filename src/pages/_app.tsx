@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps: { ...pageProps } }: AppProps) {
     <div className="flex flex-col min-h-screen">
 
       <Head>
-          <title>Nome do Seu Projeto</title> {/* 🔹 Definição do título global */}
+          <title>Ives Church Seattle</title> {/* 🔹 Definição do título global */}
           <meta name="description" content="Descrição do site para SEO e redes sociais." />
           <link rel="icon" href="/favicon.ico" />
       </Head>
